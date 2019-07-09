@@ -17,7 +17,7 @@ function App() {
   // Don't forget to pass the functions (and any additional data needed) to the components as props
 
   return (
-    <div className="container">
+    <div className="container" style={{backgroundColor: '#a61d35', height:'500px', width: '400px', borderRadius:'10px', border: '1px solid black'}} >
       <Logo />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
