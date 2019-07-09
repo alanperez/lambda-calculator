@@ -25,9 +25,13 @@ function App() {
           {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <Display />
           <div className='buttons' style={{display:'flex'}}>
-            <Specials />
-            <Numbers />
-            <Operators />
+            <div>
+              <Specials />
+              <Numbers />
+            </div>
+            <div>
+              <Operators />
+            </div>
           </div>
         </div>
     </div>
