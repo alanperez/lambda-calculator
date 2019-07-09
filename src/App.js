@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="container" style={{backgroundColor: '#a61d35', height:'500px', width: '400px', borderRadius:'10px', border: '1px solid black', margin: '0 auto'}} >
-      <div className='content' style={{height: '500px'}}>
+      <div className='content' style={{height: '500px', margin: '25px'}}>
 
         <Logo />
         <div className="App">
